@@ -8,7 +8,7 @@ spec:
     image:
     env:
     - name: course
-      value:  devops
+      value:  "devops"
     - name: trainer
       value:  "Balaraju"
     - name: duration
