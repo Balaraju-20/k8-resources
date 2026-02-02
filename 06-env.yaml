@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: environment
+spec: 
+  containers:
+  - name:
+    image:
+    env:
+    - name: course
+      value:  devops
+    - name: trainer
+      value:  "Balaraju"
+    - name: duration
+      value: "60 hrs"
