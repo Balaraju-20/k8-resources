@@ -4,12 +4,12 @@ metadata:
   name: environment
 spec: 
   containers:
-  - name:
-    image:
+  - name: nginx
+    image:  nginx
     env:
-    - name: course
-      value:  "devops"
-    - name: trainer
-      value:  "Balaraju"
-    - name: duration
-      value: "60 hrs"
+      - name: course
+        value:  devops
+      - name: trainer
+        value:  "Balaraju"
+      - name: duration
+        value: "60 hrs"
